@@ -123,12 +123,16 @@ img {
 
 .accordion-trigger {
 	display: flex;
-	align-items: center;
+	align-items: flex-start;
 	gap: var(--__panel-gap);
 	flex-direction: row-reverse;
 	background: transparent;
 	border: 0;
 	padding: 0;
+}
+
+svg{
+	flex-shrink: 0;
 }
 
 .accordion-icon {
